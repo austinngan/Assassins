@@ -1,0 +1,55 @@
+ALIVE
+acero liang         	Male	1
+allison chan        	Female	4
+andrea yin          	Female	1
+andy weng           	Male	1
+ari gurovich        	Male	0
+astrid malter       	Female	1
+axel eisen          	Male	0
+bernard wang        	Male	2
+celina              	Female	0
+derek leung         	Male	4
+dexter kong         	Male	0
+han zhang           	Male	0
+ivan chen           	Male	1
+leon tan            	Male	0
+nelson liu          	Male	4
+phillip guan        	Male	0
+rushda chowdhury    	Female	0
+sergei mishchenko   	Male	0
+simon wu            	Male	1
+stacy kim           	Female	0
+taha hussain        	Male	0
+------------------------------
+
+DEAD
+aliceana lin        	Female	0
+austin ngan         	Male	0
+benjamin ang        	Male	0
+benji kaplan        	Male	0
+caleb kahan         	Male	0
+daniel fridlyand    	Male	0
+don osipov          	Male	0
+edward wong         	Male	1
+emily               	Female	0
+emma lian           	Female	0
+harman ahluwalia    	Female	0
+horace              	Male	0
+ilona lameka        	Female	1
+jake lin            	Male	1
+jeffrey liu         	Male	0
+johnny wong         	Prefer not to say	1
+julian lane         	Male	0
+katie ng            	Female	0
+kendrick yuen       	Male	0
+leo xiao            	Male	1
+leo yuan            	Male	0
+max siragusa        	Male	1
+maxwell vale        	Male	0
+presley             	Male	0
+rishi bhatt         	Male	0
+thomas chin         	Male	1
+thomas zhao         	Male	1
+tiffany chan        	Female	0
+yaying liang li     	Female	1
+yuanjie xu          	Male	1

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body onload="fill();">
+  <div style="height: 10px;"></div>
+  <h1 class="h1 text-center">Leaderboard</h1>
+  <div class="container">
+    <table border="1" id="here" class="table table-striped table-bordered table-sm">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Kill Count</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+
+  <a style="color: white;" href="listOfTargets.html">List Of Targets ;)</a>
+
+  <script>
+    var kills = [
+      ["Derek Leung", 8],
+      ["Simon Wu", 7],
+      ["Allison Chan", 5],
+      ["Andy Weng", 4],
+      ["Nelson Liu", 4],
+      ["Bernard Wang", 2],
+      ["Han Zhang", 2],
+      ["Taha Hussain", 2],
+      ["Acero Liang", 1],
+      ["Andrea Yin", 1],
+      ["Astrid Malter", 1],
+      ["Celina", 1],
+      ["Edward Wong", 1],
+      ["Ilona Lameka", 1],
+      ["Ivan Chen", 1],
+      ["Jake Lin", 1],
+      ["Johnny Wong", 1],
+      ["Leo Xiao", 1],
+      ["Max Siragusa", 1],
+      ["Thomas Chin ", 1],
+      ["Thomas Zhao", 1],
+      ["Yaying Liang Li", 1],
+      ["Yuanjie Xu", 1],
+      ["Aliceana Lin", 0],
+      ["Ari Gurovich", 0],
+      ["Austin Ngan", 0],
+      ["Axel Eisen", 0],
+      ["Benjamin Ang", 0],
+      ["Benji Kaplan", 0],
+      ["Caleb Kahan", 0],
+      ["Daniel Fridlyand", 0],
+      ["Dexter Kong", 0],
+      ["Don Osipov", 0],
+      ["Emily", 0],
+      ["Emma Lian", 0],
+      ["Harman Ahluwalia", 0],
+      ["Horace", 0],
+      ["Jeffrey Liu", 0],
+      ["Julian Lane", 0],
+      ["Katie Ng", 0],
+      ["Kendrick Yuen", 0],
+      ["Leo Yuan", 0],
+      ["Leon Tan", 0],
+      ["Maxwell Vale", 0],
+      ["Phillip Guan", 0],
+      ["Presley", 0],
+      ["Rishi Bhatt", 0],
+      ["Rushda Chowdhury", 0],
+      ["Sergei Mishchenko", 0],
+      ["Stacy Kim", 0],
+      ["Tiffany Chan", 0]
+    ];
+
+    function fill() {
+      document.getElementById('here').innerHTML += '<tbody>\n'
+      var out = "";
+      for (let p of kills) {
+        out += '<tr><td>' + p[0] + '</td><td>' + p[1] + '</td></tr>\n';
+      }
+      document.getElementById('here').innerHTML += out;
+      document.getElementById('here').innerHTML += '</tbody>\n'
+    };
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
